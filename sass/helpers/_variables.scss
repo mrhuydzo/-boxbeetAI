@@ -1,0 +1,36 @@
+//Color
+$color-base: #48639F;
+$color-bg: #599FF0;
+$color-bg-secondary: #D7F3F8;
+$color-bg-third: #f1f3f4;
+$color-link: #48639F;
+
+$color-title: #525969;
+$color-text: #525969;
+$color-text-secondary: #585858;
+$color-border: #E0E0E0;
+$color-gray: #dcdcdc;
+$color-meta: #c8c8c8;
+$color-input: #535353;
+
+//Fonts-size
+$font-size-xs: 12px;
+$font-size-s: 13px;
+$font-size-m: 16px;
+$font-size-b: 18px;
+$font-size-bb: 32px;
+
+//Url base
+//url(#{$url-img}/site/background.jpg)
+$url-img: "../images";
+
+//Breakpoint
+$bp-xs: 425px;
+$bp-s: 540px;
+$bp-mobile: 540px;
+
+$bp-md: 768px;
+$bp-tablet: 768px;
+$bp-l: 992px;
+$bp-laptop: 992px;
+$bp-xl: 1200px;

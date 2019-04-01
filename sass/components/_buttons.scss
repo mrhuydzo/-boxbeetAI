@@ -1,0 +1,10 @@
+//Button Hover
+@mixin button ($width, $height,$color) {
+  background: $color;border: solid 1px $color;
+  position: relative;display: block;width: $width;height: $height;line-height: $height;text-align: center;color: #fff;font-size: $font-size-s;font-weight: bold;
+  cursor: pointer;outline: none;text-transform: uppercase;
+  @include transition(all .3s ease-in-out);
+  @include border-radius(5px);
+  //Hover
+  &:hover {background: #fff;color: $color;}
+}

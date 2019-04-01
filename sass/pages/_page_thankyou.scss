@@ -1,0 +1,25 @@
+.html_thankyou {background: white}
+.page_thank_you {}
+.thankyou_header {background: #ececec;text-align: center;padding: 10px 0;
+  @include box-shadow(0px, 5px, 10px, rgba(1,1,1, 0.2))
+}
+.thankyou_logo {display: inline-block;margin: 0;
+
+}
+.thankyou_body {padding: 100px 0 50px;text-align: center}
+.thankyou_txt {display: block;font-size: 62px;color: $color-link;
+    @media (min-width: $bp-mobile) {
+        font-size: 82px;
+    }
+}
+.thankyou_content {font-size: 22px;line-height: 1.6;
+  hr {background: black;color: black;width: 60%}
+}
+
+.thankyou_row {}
+.thankyou_col {margin-bottom: 30px}
+.thankyou_col_thumb {margin-bottom: 15px;padding: 3px;
+  @include box-shadow(5px,5px,10px, rgba(0,0,0, 0.2));
+  img {width: 100%}
+}
+.thankyou_col_title {font-size: $font-size-b;text-transform: uppercase;text-align: center;font-weight: bold}

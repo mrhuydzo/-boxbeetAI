@@ -1,0 +1,7 @@
+#section_fee {}
+.fee_col {border: solid 5px $color-border;padding: 15px;line-height: 1.8em}
+.fee_col_symbol {background: $color-bg;display: flex;align-items: center;justify-content: center;color: white;font-weight: bold;width: 50px;height: 50px;margin: 0 auto;
+  @include border-radius(50%);
+}
+.fee_col_title {margin-bottom: 15px;font-size: $font-size-b}
+.fee_footer {background: $color-bg;color: white;height: 80px;font-size: $font-size-b;text-align: center;line-height: 80px;font-weight: bold}

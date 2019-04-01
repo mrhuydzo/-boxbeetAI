@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.woff') format('woff'),
+  url('../fonts/HelveticaNeue.ttf') format('truetype'),
+  url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url('../fonts/helveticaneue.eot');
+  src: url('../fonts/helveticaneue.woff2') format('woff2'),
+  url('../fonts/helveticaneue.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('HelveticaNeue-Bold.woff') format('woff'),
+  url('HelveticaNeue-Bold.ttf') format('truetype'),
+  url('HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneuebold';
+  src: url('helveticaneuebold.eot');
+  src: url('helveticaneuebold.woff2') format('woff2'),
+  url('helveticaneuebold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+$font-base: 'HelveticaNeue', sans-serif;
+$font-bold: 'HelveticaNeue-Bold';

@@ -1,0 +1,42 @@
+//Input text
+%input-text ,
+%reset-input {background: white;font-family: $font-base;border: none;font-size: $font-size-m;outline: none;padding: 7px;box-shadow: none;color: $color-text}
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  outline: none;
+}
+
+select {
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {width: 100%;}
+
+.input_common {
+  @extend %input-text;
+  @include transition(all .3s ease);
+  &:focus {box-shadow: none;border-color: inherit}
+  &::placeholder {opacity: 0.4}
+}
+
+.input[type="checkbox"]{
+  margin-right: 5px;
+}

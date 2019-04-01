@@ -1,0 +1,11 @@
+#section_flow {}
+.flow_item {}
+.flow_header {background: $color-bg;color: white;display: flex;align-items: center;padding: 10px}
+.flow_number {background: white;color: $color-bg;width: 50px;height: 50px;font-weight: bold;display: flex;align-items: center;justify-content: center;margin: 0 30px 0 0;font-size: $font-size-b}
+.flow_title {font-weight: bold;margin: 0;font-size: $font-size-b}
+.flow_body {margin: 0 0 0 35px;border-left: solid 5px $color-bg;padding: 15px;
+  @media (min-width: $bp-md) {
+    padding: 50px;
+  }
+}
+.flow_content {margin: 0}
