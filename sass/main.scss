@@ -14,11 +14,11 @@
 @import "components/_buttons";
 @import "components/_menu_bottom";
 @import "components/_section";
-@import "components/_section_fee";
-@import "components/_section_flow";
 @import "components/_section_form";
 @import "components/_section_feature";
-@import "components/_section_reason";
+@import "components/_section_marketing";
+@import "components/_section_package";
+@import "components/_section_about";
 
 
 @import "partials/_form";
@@ -39,5 +39,5 @@
 
 // Vendors and external stylesheets
 
-body {background-color: white;font-family: $font-base; color: $color-text; font-weight: normal;font-size: $font-size-s;line-height: 1.4;-webkit-font-smoothing: antialiased;overflow-x: hidden}
+body {background: url("../images/bg.jpg") no-repeat 50% 0 white;background-size: 100%;font-family: $font-base; color: $color-text; font-weight: normal;font-size: $font-size-s;line-height: 1.4;-webkit-font-smoothing: antialiased;overflow-x: hidden}
 

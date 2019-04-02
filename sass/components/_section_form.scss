@@ -1,8 +1,8 @@
-#section_form {background: $color-bg-secondary;
+#section_form {
 .col-form-label {display: flex;justify-content: space-between;align-items: flex-start;font-weight: bold;}
-  .btn_submit {background: $color-bg;border-color: $color-bg;padding:15px 0px;font-weight: bold;font-size: $font-size-b}
+  .btn_submit {background: $color-blue;border-color: white;padding:15px 0px;font-weight: bold;font-size: $font-size-b}
 }
-.label_req {background: $color-bg;color: white;padding: 2px 10px;font-size: $font-size-s;
+.label_req {background: $color-blue;color: white;padding: 2px 10px;font-size: $font-size-s;
   @include border-radius(5px);
 }
 #form_info {

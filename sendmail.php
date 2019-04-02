@@ -8,7 +8,7 @@ function sendmail($name, $email) {
 	$tel = $_POST["tel"];
 	$email = $_POST["email"];
 	$content = $_POST["content"];
-	$sitetype = $_POST["sitetype"];
+	//$sitetype = $_POST["sitetype"];
 	$message = '氏名'.$representative.'様'.'<br/>'.
 			'この度はお問い合わせいただき、誠にありがとうございました。'.'<br/>'.
 			'担当者より折り返しご連絡いたしますので、今しばらくお待ちください。'.'<br/><br/>'.
@@ -20,7 +20,7 @@ function sendmail($name, $email) {
 			'ご担当者名： '.$representative.' 様'.'<br/>'.
 			'電話番号： '.$tel.'<br/>'.
 			'メールアドレス： '.$email.'<br/>'.
-			'希望サイト： '.$sitetype.'<br/>'.
+			//'希望サイト： '.$sitetype.'<br/>'.
 			'詳細： '.$content.'<br/><br/>'.
 			'ーーーーーーーーーーーーーーーーーー'.'<br/><br/>';
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="999.383" height="210" viewBox="0 0 999.383 210">
+  <defs>
+    <filter id="Box_" x="11.383" y="0" width="297" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.669" dy="5.669" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#1a1311" flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Super_tool_for_Face_recognition" x="11.383" y="144" width="988" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.669" dy="5.669" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-color="#1a1311" flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BeetAI_" x="259.292" y="37.407" width="355" height="111" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.669" dy="5.669" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-color="#1a1311" flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-270.787 -291.169)">
+    <g transform="matrix(1, 0, 0, 1, 270.79, 291.17)" filter="url(#Box_)">
+      <text id="Box_2" data-name="Box 
+" transform="translate(13.21 1.83)" fill="#fff" font-size="120" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="92">Box </tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 270.79, 291.17)" filter="url(#Super_tool_for_Face_recognition)">
+      <text id="Super_tool_for_Face_recognition-2" data-name="Super tool for Face recognition" transform="translate(13.21 145.83)" fill="#fff" font-size="40" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="31">Super tool for Face recognition</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 270.79, 291.17)" filter="url(#BeetAI_)">
+      <text id="BeetAI_2" data-name="BeetAI
+" transform="translate(261.12 39.24)" fill="#fff" font-size="70" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="54">BeetAI</tspan></text>
+    </g>
+    <line id="Line_1" data-name="Line 1" y1="0.566" x2="711.711" transform="translate(270.789 408.5)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="7"/>
+  </g>
+</svg>

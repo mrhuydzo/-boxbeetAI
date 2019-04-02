@@ -1,5 +1,6 @@
 .section {padding: 50px 0}
 .section_header {margin-bottom: 30px;padding-bottom: 20px;position: relative;overflow: hidden;text-align: center}
-.section_title {font-size: $font-size-bb;text-transform: uppercase;font-weight: bold;line-height: 1.2}
-.section_subtitle_number {}
-.section_des {font-size: $font-size-s;line-height: 24px}
+.section_title {font-size: $font-size-bb;text-transform: uppercase;font-weight: bold;line-height: 1.2;margin: 0}
+.section_body {}
+
+.section_footer {padding: 100px 0;text-align: center}

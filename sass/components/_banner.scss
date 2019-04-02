@@ -1,56 +1,18 @@
-#banner {position: relative;overflow: hidden;max-height: 800px;overflow: hidden}
-.banner_container {position: relative;text-align: right;
+#banner {/*background: url("../../images/bg.jpg") no-repeat 0 50%*/;background-size: cover;position: relative;overflow: hidden;height: 300px;
+  @media (min-width: $bp-md) {
+      height: 600px;
+  }
+  @media (min-width: $bp-l) {
+      height: 800px;
+  }
+  @media (min-width: $bp-xl) {
+      height: 1000px;
+  }
+}
+.banner_container {position: relative;text-align: center;padding: 15px;height: 100%;
   img {width: 100%;
     @media (min-width: $bp-laptop) {
       width: 75%;
     }
-  }
-}
-
-.skewed_bg_1 {background: url("/images/skew_bg.svg") no-repeat;background-size: 100%;position: absolute;left: 0;top: 0;width: 45%;height: 1080px;display: none;
-
-  @media (min-width: $bp-tablet) {
-      display: block;
-  }
-  img {position: absolute;left: 5%;top: 5%;
-    @media (min-width: $bp-tablet) {
-      left: 20%;top: 10%;
-    }
-  }
-}
-.skewed_bg_2 {background: rgba(94,142,144, 0.7);height: 50%;width: 100%;position: absolute;left: 0;bottom: 0;margin-bottom: 0px;
-  @include skew(0, 0);
-
-  @media (min-width: $bp-tablet) {
-    @include skew(0, 10); margin-bottom: -100px;
-  }
-  @media (min-width: $bp-laptop) {
-    margin-bottom: -150px;
-  }
-}
-.skewed_bg_content {color: white;
-  @include skew(0, 0);
-  @media (min-width: $bp-tablet) {
-    @include skew(0, -10);
-  }
-  h1 {font-size: $font-size-s;margin: 15px 0;font-weight: bold;
-    @media (min-width: $bp-mobile) {
-      font-size: $font-size-b;margin: 0 0 30px;
-    }
-    @media (min-width: $bp-tablet) {
-      font-size: $font-size-bb;margin: 0 0 15px;
-    }
-  }
-  h4 {font-size: $font-size-s;
-    @media (min-width: $bp-mobile) {
-      font-size: $font-size-b;
-    }
-  }
-}
-
-
-.scroll_to_form {background: $color-bg;font-size: $font-size-m;font-weight: bold;text-align: center;display: block;padding:10px 15px;position: absolute;top: 5%;right: 5%;color: white;
-  @media (min-width: $bp-tablet) {
-    font-size: $font-size-b;padding:15px;right: 5%;
   }
 }

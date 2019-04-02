@@ -1,0 +1,9 @@
+#section_package{}
+.package_col {margin-bottom: 50px}
+.package_header {margin: 0 0 15px;text-align: center;padding: 10px 0;border-bottom: solid 3px $color-mint}
+.package_title {font-size: $font-size-b;margin: 0;font-weight: bold}
+.package_body {}
+.package_lst {padding: 15px 30px;
+  @extend %reset-lst
+}
+.package_item {padding: 15px 0}

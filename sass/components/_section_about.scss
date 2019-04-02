@@ -1,0 +1,13 @@
+#section_about {}
+.about_article {line-height: 2em;
+
+  @media (min-width: $bp-md) {
+    line-height: 3em;
+  }
+  @media (min-width: $bp-l) {
+    background: url("../images/camera.svg") no-repeat  100% 50%;
+  }
+  @media (min-width: $bp-xl) {
+
+  }
+}

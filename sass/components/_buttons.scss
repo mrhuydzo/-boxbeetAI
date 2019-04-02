@@ -1,10 +1,6 @@
-//Button Hover
-@mixin button ($width, $height,$color) {
-  background: $color;border: solid 1px $color;
-  position: relative;display: block;width: $width;height: $height;line-height: $height;text-align: center;color: #fff;font-size: $font-size-s;font-weight: bold;
-  cursor: pointer;outline: none;text-transform: uppercase;
-  @include transition(all .3s ease-in-out);
-  @include border-radius(5px);
-  //Hover
-  &:hover {background: #fff;color: $color;}
+.btn_contact {background: $color-link;color: white;max-width: 500px;margin: 0 auto;display: block;height: 60px;line-height: 60px;text-align: center;
+  border: solid 1px $color-link;font-weight: bold;
+  @include border-radius(50px);
+  @include transition(all .3s ease);
+  &:hover {background: white;color: $color-link}
 }

@@ -106,11 +106,11 @@ $(document).ready(function () {
 			var tel = $( "#form_info_phone" ).val();
 			var email = $( "#form_info_email" ).val();
 			var content = $( "#form_info_detail" ).val();
-			var sitetype = $("input[name='gridRadios']:checked").val();
+			//var sitetype = $("input[name='gridRadios']:checked").val();
 			$.ajax({
 			    type: 'POST',
 				url:"sendmail.php",
-				data: {company_name: company_name, representative: representative, tel: tel, email: email, content: content, sitetype: sitetype},
+				data: {company_name: company_name, representative: representative, tel: tel, email: email, content: content},
 				success: function(rs){
                     $(".ajax-loader").hide();
                     $("#form_info").trigger("reset");

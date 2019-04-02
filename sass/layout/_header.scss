@@ -1,11 +1,22 @@
-#header {overflow: hidden;border-bottom: solid 5px $color-bg;
-/*  &.fixed {background: rgba(0,0,0, 0.75);position: fixed;top: 0;z-index: 9990;width: 100%;
-      .navtop_lst_item {
-        a {color: white}
-      }
-      .navtop_lst_item.active a::before {
-          background: white;
-      }
-  }*/
+#logo {margin: 0;position: absolute;top: 15px;right: 15px;z-index: 1;
+  a {}
+  img {width: 100px;
+    @media (min-width: $bp-md) {
+      width: 200px;
+    }
+    @media (min-width: $bp-l) {
+
+    }
+    @media (min-width: $bp-xl) {
+
+    }
+  }
 }
-.header_container {position: relative;height: 100%}
+.slogan {margin: 0;position: absolute;left: 0;bottom: 40%;
+  @media (min-width: $bp-md) {
+
+  }
+  @media (min-width: $bp-l) {
+    bottom: inherit;top: 20%;
+  }
+}
